@@ -1,4 +1,4 @@
-baseurl = "https://pages.gitlab.io/hugo/"
+baseurl = "https://_mylife.gitlab.io"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -6,7 +6,7 @@ title = "Beautiful Hugo"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = "elate"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
