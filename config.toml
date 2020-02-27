@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
-title = "Elate theme"
+baseurl = "https://_mylife.gitlab.io"
+title = "My Life"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
