@@ -56,7 +56,7 @@ theme = "hugo-elate-theme"
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "./static/assets/apple.png"
 
   [[params.intro.item]]
     title = "Crossfit plan"
@@ -64,7 +64,7 @@ theme = "hugo-elate-theme"
     url = "#"
     button = "Click Me"
     icon = "icon-wrench"
-    img = "img_8.jpg"
+    img = "./static/assets/hallbelt.png"
 
   [[params.intro.item]]
     title = "Vital signals monitoring"
@@ -72,7 +72,7 @@ theme = "hugo-elate-theme"
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    img = "./static/assets/heart.png"
 
   [params.intro.video]
     enable = true
