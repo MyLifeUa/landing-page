@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "https://_mylife.gitlab.io"
+baseurl = "https://my-life-ua.gitlab.io"
 title = "My Life"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
