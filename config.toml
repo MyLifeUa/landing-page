@@ -204,6 +204,11 @@ theme = "hugo-elate-theme"
         ["icon-dribbble", "#"]
       ]      
 
+  [params.about]
+    enable = true
+    title = ""
+    description = ""
+
     [[params.about.item]]
       name = "João Marques"
       position = "DevOps Master"
