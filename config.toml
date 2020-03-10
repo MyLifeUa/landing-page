@@ -201,13 +201,8 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-dribbble", "#<br><br>"]
       ]      
-
-  [params.about]
-    enable = true
-    title = ""
-    description = ""
 
     [[params.about.item]]
       name = "João Marques"
