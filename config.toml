@@ -52,15 +52,15 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Nutrition"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "We will use computer vision and a set of Machine Learning algorithms to recognise basic elements on a plate and to be able to tell important information like calories, macronutrients and others about the food the user is intaking."
     url = "#"
-    button = "Get In Touch"
+    # button = "Get In Touch"
     icon = "icon-apple"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Crossfit plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Through motion detection using OpenPose, we intend to detect a set of exercises. To ensure that the exercise is suited for the user and that he is correctly performing the exercise."
     url = "#"
     button = "Click Me"
     icon = "icon-energy"
@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Vital signals monitoring"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "The end-user is supposed to feel a familiar app, and so the initial learning curve must be low. This leads the user to use the app more frequently and become an active daily user."
     url = "#"
     button = "Why us?"
     icon = "icon-heart"
@@ -85,108 +85,94 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "What we have done so far"
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
-      img = "work_1.jpg"
+      img = "deployment-diagram.png"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
+      title = "Deployment Diagram"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "project_calendar.png"
+      alt = "Image2"
+      title = "Project Calendar"
+      subtitle = "Planning"
+
+    [[params.work.row]]
+      img = "technology-architecture.png"
       alt = "Image3"
-      title = "Project 3"
+      title = "Technology Architecture"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "work_4.jpg"
+      img = "use-case-model.png"
       alt = "Image4"
-      title = "Project 4"
+      title = "Use Case Model"
       subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+  # # Testimonials section
+  # [params.testimonials]
+  #   enable = true
+  #   title = "Testimonials"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+  #     person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person1.jpg"
+  #     alt = "Person1"
 
-  # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+  #     person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person2.jpg"
+  #     alt = "Person2"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+  #   [[params.testimonials.item]]
+  #     quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+  #     person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  #     img = "person3.jpg"
+  #     alt = "Person3"
     
-
-
-
   # Services section
   [params.services]
     enable = true
     title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "A brief description of the services we plan to implement."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Open Pose"
+      description = "Investigate and learn how to use the software. Implement a simpler use case of OpenPose."
+      icon = "icon-people"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Computer Vision ML"
+      description = "Search and analyse for ml and pattern recognition tools. Search for a dataset of foods and respective properties (protein,calories,carbohydrates)."
+      icon = "icon-cursor"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Frontend"
+      description = "Design and develop an interface for the mobile application. Design and develop an interface for the web applications."
+      icon = "icon-frame"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      title = "Backend"
+      description = "Database and business logic system with Django."      
       icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Some information about our team."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
+      name = "Tomás Costa"
+      position = "Lead Developer"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "tomas-costa.jpg"
       alt = "Person1"
       social = [
         ["icon-twitter", "#"],
@@ -195,10 +181,10 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
+      name = "Vasco Ramos"
+      position = "Team Manager"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "vasco-ramos.jpg"
       alt = "Person2"
       social = [
         ["icon-twitter", "#"],
@@ -207,10 +193,34 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
+      name = "João Vasconcelos"
+      position = "Product Owner"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "joao-vasconcelos.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+
+    [[params.about.item]]
+      name = "João Marques"
+      position = "DevOps Master"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "joao-marques.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-info", "https://jmarques.icu"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+
+    [[params.about.item]]
+      name = "João Vasconcelos"
+      position = "Product Owner"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "joao-vasconcelos.jpg"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
