@@ -201,8 +201,10 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
-        ["icon-dribbble", "#<br><br>"]
+        ["icon-dribbble", "#"]
       ]      
+
+    "trying to insert some HTML <br><br>"
 
     [[params.about.item]]
       name = "João Marques"
@@ -211,9 +213,9 @@ theme = "hugo-elate-theme"
       img = "joao-marques.png"
       alt = "Person3"
       social = [
-        ["icon-info", "https://jmarques.icu"],
-        ["icon-social-github", "https://github.com/joao-p-marques"],
-        ["icon-linkedin", "https://www.linkedin.com/in/jo%c3%a3o-marques-62480119a/"]
+        ["icon-info", "https://jmarques.icu"]
+        # ["icon-social-github", "https://github.com/joao-p-marques"],
+        # ["icon-linkedin", "https://www.linkedin.com/in/jo%c3%a3o-marques-62480119a/"]
       ]      
 
     [[params.about.item]]
