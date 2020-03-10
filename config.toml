@@ -204,7 +204,7 @@ theme = "hugo-elate-theme"
         ["icon-dribbble", "#"]
       ]      
 
-    "trying to insert some HTML <br><br>"
+    [customHTML]
 
     [[params.about.item]]
       name = "João Marques"
