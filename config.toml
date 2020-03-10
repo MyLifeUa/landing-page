@@ -95,7 +95,7 @@ theme = "hugo-elate-theme"
       subtitle = "Design"
 
     [[params.work.row]]
-      img = "project_calendar.png"
+      img = "project-calendar.png"
       alt = "Image2"
       title = "Project Calendar"
       subtitle = "Planning"
