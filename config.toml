@@ -172,7 +172,7 @@ theme = "hugo-elate-theme"
       name = "Tomás Costa"
       position = "Lead Developer"
       # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "tomas-costa.jpg"
+      img = "tomas-costa.png"
       alt = "Person1"
       social = [
         ["icon-twitter", "#"],
@@ -208,19 +208,19 @@ theme = "hugo-elate-theme"
       name = "João Marques"
       position = "DevOps Master"
       # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "joao-marques.jpg"
+      img = "joao-marques.png"
       alt = "Person3"
       social = [
         ["icon-info", "https://jmarques.icu"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-social-github", "https://github.com/joao-p-marques"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jo%c3%a3o-marques-62480119a/"]
       ]      
 
     [[params.about.item]]
-      name = "João Vasconcelos"
-      position = "Product Owner"
+      name = "Tiago Mendes"
+      position = "Architectural Expert"
       # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "joao-vasconcelos.jpg"
+      img = "tiago-mendes.jpg"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
