@@ -228,6 +228,18 @@ theme = "hugo-elate-theme"
         ["icon-dribbble", "#"]
       ]      
 
+    [[params.about.item]]
+      name = "Annoying Boss"
+      position = "Confident Manager"
+      # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "vasco-ramos.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
   # Counters section
   [params.counters]
     enable = true
@@ -268,18 +280,18 @@ theme = "hugo-elate-theme"
 
   # Contact section
   [params.contact]
-    enable = true
-    map = true
+    enable = false
+    map = false
     form = true
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
+        # ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        # ["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-globe", '<a href="http://my-life-ua.gitlab.io/" target="_blank">HomePage</a>']
       ]
 
     name = "Name"
