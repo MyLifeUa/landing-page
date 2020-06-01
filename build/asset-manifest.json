@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.ac08a9a5.chunk.js",
-    "main.js.map": "/static/js/main.ac08a9a5.chunk.js.map",
+    "main.js": "/static/js/main.f423a51f.chunk.js",
+    "main.js.map": "/static/js/main.f423a51f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9149a9b8.js",
     "runtime-main.js.map": "/static/js/runtime-main.9149a9b8.js.map",
     "static/js/2.f3897277.chunk.js": "/static/js/2.f3897277.chunk.js",
     "static/js/2.f3897277.chunk.js.map": "/static/js/2.f3897277.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4b2872fbbceb11d24f4bd94015b9d83d.js": "/precache-manifest.4b2872fbbceb11d24f4bd94015b9d83d.js",
+    "precache-manifest.dddb83a687617d7ec234987dfd5418de.js": "/precache-manifest.dddb83a687617d7ec234987dfd5418de.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.f3897277.chunk.js.LICENSE.txt": "/static/js/2.f3897277.chunk.js.LICENSE.txt",
     "static/media/android.svg": "/static/media/android.f1d7b497.svg",
@@ -31,6 +31,6 @@
   "entrypoints": [
     "static/js/runtime-main.9149a9b8.js",
     "static/js/2.f3897277.chunk.js",
-    "static/js/main.ac08a9a5.chunk.js"
+    "static/js/main.f423a51f.chunk.js"
   ]
 }
