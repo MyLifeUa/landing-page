@@ -28,7 +28,7 @@ function Work() {
                     </div>
                     <div class="row row-bottom-padded-sm">
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/mylife" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/mylife" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work01} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Project planning</h2>
@@ -37,7 +37,7 @@ function Work() {
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/web-application" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/web-application" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work02} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Web application</h2>
@@ -48,7 +48,7 @@ function Work() {
                         <div class="clearfix visible-sm-block"></div>
 
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/mobile-application" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/mobile-application" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work03} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Mobile application</h2>
@@ -57,7 +57,7 @@ function Work() {
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/rest-api" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/rest-api" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work04} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Rest API</h2>
@@ -69,7 +69,7 @@ function Work() {
                         <div class="clearfix visible-sm-block"></div>
 
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/ml-food-recognition" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/ml-food-recognition" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work05} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Machine Learning Engine</h2>
@@ -78,7 +78,7 @@ function Work() {
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xxs-12">
-                            <a href="https://github.com/my-life-ua/rest-api" class="fh5co-project-item image-popup to-animate">
+                            <a href="https://github.com/my-life-ua/rest-api" target="_blank" class="fh5co-project-item  to-animate">
                                 <img src={work06} alt="Image" class="img-responsive" />
                                 <div class="fh5co-text">
                                     <h2>Fitbit integration</h2>
