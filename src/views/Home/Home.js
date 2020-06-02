@@ -22,8 +22,8 @@ function Home() {
             <HomeSection />
             <Intro />
             <Services />
-            <About />
             <Work />
+            <About />
             <Counters />
             <Contacts />
             <Footer />
